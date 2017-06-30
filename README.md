@@ -12,17 +12,18 @@ All calls must supply a valid jwt
 
 ### ```POST /distance```
 
-Calculate walking distance between home and schoool
+Calculate walking distance between origin and destination
 
 ```JavaScript
 {
-  home: {},
-  school: {}
+  origin: '',
+  destination: '',
+  waypoints: []
 }
 ```
 
 ```bash
-$ curl -v -H "Authorization: <INSERT TOKEN>" -d '{ "home": {}, "school": {} }' https://distance.service.io/distance
+$ curl -v -H "Authorization: <INSERT TOKEN>" -d '{ "origin": "", "destination": "", "waypoints": [] }' https://distance.service.io/distance
 ```
 
 ## License
