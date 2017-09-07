@@ -1,7 +1,7 @@
 {
   "name": "skoleskyss-distance",
   "description": "Microservice for skoleskyss and distance",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "license": "MIT",
   "private": true,
   "author": {
@@ -46,13 +46,13 @@
     "axios": "0.16.2",
     "ava": "0.22.0",
     "coveralls": "2.13.1",
-    "nsp": "2.7.0",
     "nyc": "11.2.0",
+    "nsp": "2.8.0",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
   "dependencies": {
-    "jsonwebtoken": "7.4.2",
+    "jsonwebtoken": "8.0.0",
     "marked": "0.3.6",
     "micro": "8.0.3",
     "winston": "2.3.1",
