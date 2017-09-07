@@ -1,7 +1,7 @@
 {
   "name": "skoleskyss-distance",
   "description": "Microservice for skoleskyss and distance",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "license": "MIT",
   "private": true,
   "author": {
@@ -46,8 +46,8 @@
     "axios": "0.16.2",
     "ava": "0.22.0",
     "coveralls": "2.13.1",
-    "nyc": "11.2.0",
     "nsp": "2.8.0",
+    "nyc": "11.1.0",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
