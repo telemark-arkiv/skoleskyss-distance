@@ -1,7 +1,7 @@
 {
   "name": "skoleskyss-distance",
   "description": "Microservice for skoleskyss and distance",
-  "version": "1.0.18",
+  "version": "1.1.0",
   "license": "MIT",
   "private": true,
   "author": {
